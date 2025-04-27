@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .hero-section {
+    background-image: url('https://source.unsplash.com/1600x600/?travel');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .hero-section h1,
+  .hero-section p {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
+  footer {
+    margin-top: 30px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+  }
+  
